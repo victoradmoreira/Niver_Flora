@@ -1,0 +1,201 @@
+*{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #286803;
+    padding: 24px;
+}
+
+main {
+    background-color: #286803;
+    padding: 24px;
+}
+
+footer {
+    background-color: #286803;
+    padding: 24px;
+    text-align: center;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flyer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #004d5a;
+    margin: 0px 24px 24px 24px;
+    border-radius: 36px;
+    color: white;
+    width: 1024px;
+    font-size: small;
+}
+
+section {
+    padding: 6px;
+}
+
+.convite {
+    width: 200px;
+    height: auto;
+}
+
+.saibaMais {
+    display: inline-block;
+    background-color: #17751b;
+    color: #f4f3ee;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+h3 {
+    padding: 6px;
+    text-align: center;
+}
+
+.cadastro-section {
+    margin: 100px;
+    padding: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+.cadastro-form {
+    background-color: transparent;
+    color: #f4f3ee;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 50px 0;
+}
+  
+.cadastro-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.cadastro-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+.cadastro-form input {
+    background-color: #e6ffe6;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+  
+.cadastro-form div select.selecao {
+    background-color: #e6ffe6;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+  
+.cadastro-form div select.news {
+    background-color: #e6ffe6;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+
+.cadastro-form div select.grupo {
+    background-color: #e6ffe6;
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+  
+.cadastro-form div.selecao {
+    background-color: #e6ffe6;
+    width: 100%;
+    margin-bottom: 4px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+  
+.cadastro-form div.news {
+    background-color: #e6ffe6;
+    width: 100%;
+    margin-bottom: 4px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+
+.cadastro-form div.grupo {
+    background-color: #e6ffe6;
+    width: 100%;
+    margin-bottom: 4px;
+    border: 1px solid #6b6e91;
+    color: black;
+}
+  
+.cadastro-form button {
+    background-color:  #17751b;
+    color: #f4f3ee;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.cadastro-form button:hover {
+    opacity: 0.6;
+}
+  
+.cadastro-form input.campo-invalido {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+  
+.cadastro-form input.campo-valido {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+}
+
+.fotoheader {
+    width: auto;
+    height: 200px;
+    border-radius: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .flyer {
+        display: flex;
+        justify-content: space-between;
+        padding: 4px;
+        background-color: #004d5a;
+        margin: 0px 8px 8px 8px;
+        border-radius: 12px;
+        color: white;
+        width: auto;
+        font-size: xx-small;
+    }
+    nav {
+        width: 100px;
+        display: block;        
+    }
+
+    .convite {
+        width: 150px;
+        height: auto;
+    }
+}
+
+
